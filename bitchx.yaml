@@ -1,52 +1,53 @@
 # Hermes skin — "bitchx": classic BitchX IRC client, ANSI on black.
-# Monospaced, black background, white/grey text, cyan/teal + magenta accents.
+# Logo palette from the BitchX screenshot: magenta outline, green->cyan core,
+# white dotted X on black, royal-blue status bar.
 name: bitchx
-description: BitchX IRC — classic black terminal, ANSI colours, cyan channels, magenta highlights
+description: BitchX IRC — classic black terminal, magenta outline, green-cyan logo core
 
 colors:
   background: "#000000"
 
-  ui_accent: "#00c8c8"
-  banner_accent: "#00c8c8"
-  ui_tool: "#00c800"
+  ui_accent: "#00ff66"
+  banner_accent: "#ff00ff"
+  ui_tool: "#00ff66"
 
-  banner_title: "#ffffff"
-  banner_text: "#c0c0c0"
-  ui_text: "#c0c0c0"
+  banner_title: "#00ffff"
+  banner_text: "#d0d0d0"
+  ui_text: "#d0d0d0"
   ui_primary: "#ffffff"
-  ui_label: "#c0c0c0"
+  ui_label: "#d0d0d0"
   banner_dim: "#808080"
-  banner_border: "#008080"
-  ui_border: "#005050"
+  banner_border: "#ff00ff"
+  ui_border: "#9900cc"
   ui_thinking: "#808080"
 
-  ui_ok: "#00c800"
-  ui_warn: "#e0e000"
-  ui_error: "#e00000"
+  ui_ok: "#00ff66"
+  ui_warn: "#ffff00"
+  ui_error: "#ff0066"
 
-  prompt: "#00c800"
-  input_rule: "#008080"
-  response_border: "#008080"
-  status_bar_bg: "#0a0a0a"
-  status_bar_text: "#c0c0c0"
-  status_bar_good: "#00c800"
-  status_bar_warn: "#e0e000"
-  status_bar_critical: "#e00000"
-  session_label: "#00c8c8"
-  session_border: "#005050"
+  prompt: "#00ff00"
+  input_rule: "#ff00ff"
+  response_border: "#00ffff"
+  status_bar_bg: "#0000cd"
+  status_bar_text: "#ffffff"
+  status_bar_good: "#00ff66"
+  status_bar_warn: "#ffff00"
+  status_bar_critical: "#ff0066"
+  session_label: "#00ffff"
+  session_border: "#9900cc"
 
-  diff_added: "#00c800"
-  diff_removed: "#e00000"
-  diff_added_word: "#00c800"
-  diff_removed_word: "#e00000"
+  diff_added: "#00ff66"
+  diff_removed: "#ff0066"
+  diff_added_word: "#00ff66"
+  diff_removed_word: "#ff0066"
 
-  syntax_string: "#e0e000"
+  syntax_string: "#ffff00"
   syntax_number: "#ff00ff"
-  syntax_keyword: "#00c8c8"
+  syntax_keyword: "#00ffff"
   syntax_comment: "#808080"
 
   completion_menu_bg: "#000000"
-  completion_menu_current_bg: "#003030"
+  completion_menu_current_bg: "#002b2b"
   completion_menu_meta_bg: "#000000"
 
 branding:

@@ -3,7 +3,7 @@ description: BitchX IRC — classic black terminal, magenta outline, green-cyan
   logo core
 colors:
   background: '#000000'
-  ui_accent: '#00ff66'
+  ui_accent: '#9900cc'
   banner_accent: '#9900cc'
   ui_tool: '#00ff66'
   banner_title: '#9900cc'
@@ -26,7 +26,7 @@ colors:
   status_bar_good: '#00ff66'
   status_bar_warn: '#9900cc'
   status_bar_critical: '#ff0066'
-  session_label: '#00ffff'
+  session_label: '#9900cc'
   session_border: '#9900cc'
   diff_added: '#00ff66'
   diff_removed: '#ff0066'
@@ -44,11 +44,9 @@ branding:
   prompt_symbol: '>'
   help_header: BitchX commands
 tool_prefix: '|'
-banner_logo: |
-  [bold #9900cc]██╗  ██╗███████╗██████╗ ███╗   ███╗███████╗███████╗[/]
-  [bold #9900cc]███████║██╔════╝██╔══██╗████╗ ████║██╔════╝██╔════╝[/]
-  [bold #cc00ff]██╔══██║████╗  ██████╔╝██╔████╔██║█████╗  █████╗  [/]
-  [bold #cc00ff]██║  ██║██╔══╝ ██╔══██╗██║╚██╔╝██║██╔══╝  ██╔══╝  [/]
-  [bold #ff00ff]██║  ██║███████╗██║  ██║██║ ╚═╝ ██║███████╗███████╗[/]
-  [bold #ff00ff]╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝[/]
-  [#00ffff]· · ·  B I T C H X   E D I T I O N  · · ·[/]
+banner_logo: "[bold #9900cc]██╗  ██╗███████╗██████╗ ███╗   ███╗███████╗███████╗[/]\n\
+  [bold #9900cc]███████║██╔════╝██╔══██╗████╗ ████║██╔════╝██╔════╝[/]\n[bold #cc00ff]██╔══██║████╗\
+  \  ██████╔╝██╔████╔██║█████╗  █████╗  [/]\n[bold #cc00ff]██║  ██║██╔══╝ ██╔══██╗██║╚██╔╝██║██╔══╝\
+  \  ██╔══╝  [/]\n[bold #ff00ff]██║  ██║███████╗██║  ██║██║ ╚═╝ ██║███████╗███████╗[/]\n\
+  [bold #ff00ff]╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝[/]\n[#00ffff]·
+  · ·  B I T C H X   E D I T I O N  · · ·[/]\n"

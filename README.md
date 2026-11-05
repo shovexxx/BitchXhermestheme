@@ -1,9 +1,18 @@
 # BitchX Hermes Theme
 
-Classic [BitchX](https://get-xsnow.de/) IRC client, reborn as a Hermes
-skin — black terminal, ANSI colours, cyan channels, magenta highlights.
-One YAML file themes **everything at once**: CLI, Ink TUI, and the
-desktop GUI repaint live within ~a second.
+Classic [BitchX](https://get-xsnow.de/) IRC client, reborn as Hermes
+skins — black terminal, ANSI colours. Two switchable colourways; one
+YAML themes **everything at once**: CLI, Ink TUI, and the desktop GUI
+repaint live within ~a second.
+
+- **`bitchx`** — the screenshot logo palette: magenta outline
+  (`#FF00FF`), green→cyan core (`#00FF66`→`#00FFFF`), white dotted X,
+  royal-blue status bar (`#0000CD`).
+- **`bitchx-classic`** — the original teal palette: cyan channels
+  (`#00C8C8`), teal borders (`#008080`), green prompt.
+
+Switch any time: `hermes skin use bitchx` / `hermes skin use bitchx-classic`
+(or `/skin` in-session).
 
 If you know, you know.
 
@@ -33,17 +42,15 @@ For a named profile, drop the file in
 hermes config set display.skin default
 ```
 
-## Palette
+## Palettes
 
-| Role | Colour |
-|---|---|
-| Background | `#000000` black |
-| Text | `#c0c0c0` silver / `#ffffff` headings |
-| Channels / accent | `#00c8c8` cyan, `#008080` teal borders |
-| Prompt / tools / ok | `#00c800` green |
-| Warnings / strings | `#e0e000` yellow |
-| Errors | `#e00000` red |
-| Numbers / highlights | `#ff00ff` magenta |
+**`bitchx` (logo):** black `#000000`, magenta outline `#FF00FF`,
+green `#00FF66`, cyan `#00FFFF`, white `#FFFFFF`, yellow `#FFFF00`,
+pink-red `#FF0066`, royal-blue status bar `#0000CD`.
+
+**`bitchx-classic` (teal):** black `#000000`, cyan `#00C8C8`, teal
+borders `#008080`, green `#00C800`, yellow `#E0E000`, red `#E00000`,
+magenta numbers `#FF00FF`.
 
 ## License
 
